@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Implementing Grouping">
+
+
+<test name="Testing with Groups">
+
+
+<groups>
+
+
+<run>
+
+<include name="login"/>
+
+</run>
+
+</groups>
+
+
+<classes>
+
+<class name="TestNGgroup.gr1"/>
+
+<class name="TestNGgroup.gr2"/>
+
+</classes>
+
+</test>
+
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="fdhdfj">
+	<test name="gfjhf">
+		<classes>
+			<class name="TestNGbasic.basic"/>
+			
+			<class name="TestNGbasic.java">
+			</class>
+			<class name="TestNGbasic.sp" />
+			<class name="SeleniumTest.TestAlerts">
+			</class>
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SINGLE Tests">
+	<test name="Check GROUPING">
+		<groups>
+			<run>
+				<include name="software" />
+				<include name="Banking" />
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNGgroup.gr1" />
+		</classes>
+	</test>
+	<test name="Test2 Non GROUPING">
+		<classes>
+			<class name="TestNGgroup.gr2" />
+		</classes>
+	</test>
+</suite>
